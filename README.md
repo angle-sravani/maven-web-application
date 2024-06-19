@@ -1,6 +1,7 @@
 java end to end project.
 jenkins script.
 pipeline{
+
     agent any
     tools{
         maven 'maven-1'
