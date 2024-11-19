@@ -8,7 +8,7 @@ spec:
     namespace: your-namespace
     server: https://kubernetes-api.your-cluster.com
   source:
-    repoURL: https://github.com/your-repo/your-app.git
+    repoURL: https://github.com/angle-sravani/maven-web-application.git
     path: argocd
     targetRevision: HEAD
   project: default
