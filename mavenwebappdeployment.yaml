@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mavenwebappdeployment2
+  name: mavenwebappdeployment
 spec:
   revisionHistoryLimit: 10
   replicas: 1
