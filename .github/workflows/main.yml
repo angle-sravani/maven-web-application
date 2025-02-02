@@ -1,0 +1,15 @@
+name: Build and Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out Code
+        uses: actions/checkout@v3
+
+      - name: Build
+        run: echo "Building and testing for this repository"
